@@ -1,0 +1,5 @@
+[monitorserver]
+54.164.54.60 ansible_ssh_private_key_file=/home/arun/Downloads/tf-test.pem ansible_ssh_user=ubuntu
+[nodeservers]
+54.227.49.232 ansible_ssh_private_key_file=/home/arun/Downloads/tf-test.pem ansible_ssh_user=ubuntu
+
