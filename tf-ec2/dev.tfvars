@@ -1,4 +1,4 @@
-project_name = "jenkins"
+project_name = "monstack"
 env_name = "dev"
 ami_id = "ami-0c6c29c5125214c77"
 srv_type = "t4g.small"
@@ -10,11 +10,11 @@ azs = [
 ]
 
 srvsmon = [
-  "promethues",
+  "monitorserver",
 ]
 
 srvsnode = [
-  "node1",
+  "nodeserver",
 ]
 
 awsregion = "us-east-1"
